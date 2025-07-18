@@ -17,7 +17,7 @@
       <h1>Vue Course Goals</h1>
     </header>
     <section id="user-goal">
-      <h2>My Course Goal</h2>
+      <h2>{{ goalText() }}</h2>
       <p>{{ goal }}</p>
       <p> ReadMore At : <a v-bind:href="readMore">REAM MORE!</a></p>
     </section>
